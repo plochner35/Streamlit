@@ -6,7 +6,7 @@ Created on Tue Sep 28 17:49:51 2021
 """
 import streamlit as st
 
-st.title("Pro Rated Time")
+st.title("Pro Rate Time")
 st.write("""Shown is the prorated time for billable and total hours""")
 
 audit_bill = st.number_input("Enter billable audit hours: ", min_value=0.000,max_value=25000.000,value=1.000, step=.001)
